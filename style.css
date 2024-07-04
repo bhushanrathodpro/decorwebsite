@@ -1,0 +1,145 @@
+/* Main Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+  font-weight: normal;
+}
+
+header {
+  background-color: #d8d1ca;
+  color: white;
+  text-align: center;
+  padding: 2%; /* Use percentage for padding */
+  border-radius: 10px 10px 0 0;
+}
+
+#rcorners1 {
+  border-radius: 25px;
+  background: #d8d1ca;
+  padding: 2%; /* Use percentage for padding */
+}
+
+#rcorners2 {
+  border-radius: 25px;
+  background: #d8d1ca;
+  padding: 2%; /* Use percentage for padding */
+}
+
+/* Button Styles - Retain Original Sizes */
+.button {
+  display: inline-block;
+  position: inherit;
+  background-color: #55789D;
+  color: white;
+  padding: 10px 20px; /* Retain original padding */
+  text-align: center;
+  border-radius: 20px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px; /* Retain original font size */
+}
+
+.container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 0.5%; /* Use percentage for gap */
+}
+
+/* Eclipse Buttons - Retain Original Sizes */
+.eclipse-buttons {
+  position: absolute;
+  top: 1%; /* Use percentage for positioning */
+  right: 1%; /* Use percentage for positioning */
+  display: flex;
+}
+
+.eclipse-button {
+  border-style: none;
+  border-color: inherit;
+  border-width: medium;
+  width: 163px; /* Retain original width */
+  height: 30px; /* Retain original height */
+  background-color: #55789D;
+  color: #FBBE0A;
+  font-family: sans-serif;
+  border-radius: 50px;
+  margin-left: 10px; /* Retain original margin */
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px; /* Retain original font size */
+  outline: none;
+}
+
+.eclipse-button:hover {
+  background-color: #55789D;
+}
+
+/* Header Content */
+.header-content {
+  height: auto; /* Use auto for height */
+  width: 70%; /* Use percentage for width */
+  margin: 0 auto; /* Center the content */
+}
+
+/* Bubble Container */
+.bubble-container {
+  position: fixed;
+  bottom: 2%; /* Use percentage for positioning */
+  right: 2%; /* Use percentage for positioning */
+  z-index: 1000;
+}
+
+/* Bubble Styles */
+.bubble {
+  display: inline-block;
+  padding: 10px 20px; /* Retain original padding */
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  border: 2px solid #808080;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 16px; /* Retain original font size */
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Retain original shadow */
+}
+
+.bubble:hover {
+  background-color: #55789D;
+  color: #ffffff;
+}
+
+/* Header Links Section */
+.header {
+  display: flex;
+  align-items: center;
+  float: right;
+  top: 5.7%; /* Use percentage for positioning */
+  background-color: #55789D;
+  border-radius: 25px;
+  padding: 10px 20px; /* Retain original padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Retain original shadow */
+  width: 300px; /* Retain original width */
+  height: 27px; /* Retain original height */
+}
+
+.header a 
+{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px; 
+  transition: 0.3s;
+}
+
+.header a:hover {
+  background-color: #82a5ca;
+}
